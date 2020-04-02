@@ -31,3 +31,124 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+header, main, footer {
+    font-family: 'Roboto', sans-serif;
+}
+header li {
+    display: inline-block;
+    padding: 10px 20px 10px 40px;
+    font-size: 14px;
+}
+#super {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+header .menu {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-part {
+    color: white;
+    background-image: url(images/pozadi.jpg);
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding: 0;
+}
+
+.left h1 {
+    font-size: 70px;
+    font-weight: normal;
+    padding: 0 20px 0 40px;
+}
+.left .description {
+    font-size: 32px;
+    font-weight: 300;
+    padding: 0 60px 40px 40px;
+}
+.left .links-main {
+    padding: 0 60px 40px 40px;
+}
+
+main li {
+    display: inline-block;
+}
+.main-part a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+    margin: 5px 15px 5px 0;
+    background-color: none;
+}
+.main-part a:hover, .main-part a:focus {
+    background-color: #48418e;
+}
+
+.right {
+    align-self: flex-end;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.right img {
+    position: relative;
+    top: 6.5px;
+    align-self: flex-end;
+    height: 540px;
+    padding: 60px 0 0 0;
+    margin: 0;
+}
+
+
+
+
+.links h2, .menu {
+    color: #25133d;
+}
+
+.links img {
+    width: 65px;
+    margin: 30px 0 0 0;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.links .link {
+    align-self: center;
+    text-align: center;    
+}
+.links .link p {
+    padding: 10px 40px 20px 40px;
+    font-size: 15px;
+}
+
+.links h2 {
+    font-size: 20px;
+}
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #48418e;
+}
